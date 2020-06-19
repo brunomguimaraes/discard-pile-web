@@ -187,7 +187,7 @@ const CreatePoint = () => {
                 <fieldset>
                     <legend>
                         <h2>Endereço</h2>
-                        <span>Selectione o endereço no mapa</span>
+                        <span>Selecione o endereço no mapa</span>
                     </legend>
 
                     <Map center={initialPosition} zoom={14} onClick={handleMapClick}>
@@ -221,8 +221,8 @@ const CreatePoint = () => {
                 </fieldset>
                 <fieldset>
                     <legend>
-                        <h2>Ítens de coleta</h2>
-                        <span>Selectione um ou mais itens abaixo</span>
+                        <h2>Itens de coleta</h2>
+                        <span>Selecione um ou mais itens abaixo</span>
                     </legend>
                     <ul className="items-grid">
                         {items.map(item => (
