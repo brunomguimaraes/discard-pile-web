@@ -1,0 +1,26 @@
+#page-checkout-point {
+    height: 100vh;
+    background-color: #19161F;
+    display: flex;
+    align-items: center;
+  }
+
+#page-checkout-point .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+#page-checkout-point .content h1 {
+    color: #F0F0F5;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+  }
+
+#page-checkout-point .content svg{
+    color: #34CB79;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+  }
