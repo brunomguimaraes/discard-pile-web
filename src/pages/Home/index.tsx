@@ -4,7 +4,7 @@ import { FiLogIn } from 'react-icons/fi';
 
 import './styles.css';
 
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/sample-logo.svg';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -13,13 +13,14 @@ const Home = () => {
             <div className="content">
                 <header>
                     <img src={logo} alt="Discard" />
+                    <span>Discard Pile</span>
                 </header>
                 <main>
                     <h1>
-                        Seus marketplace de coleta de resíduos.
+                        Your waste collection marketplace.
                     </h1>
                     <p>
-                        Ajudamos pessoas a encontrarem pontos de coleta de forma eficiente.
+                        We help people find collection points to discard their waste.
                     </p>
 
                     <Link to="/create-point">
@@ -27,7 +28,7 @@ const Home = () => {
                             <FiLogIn />
                         </span>
                         <strong>
-                            Cadastre um ponto de coleta
+                            Register a collection point
                         </strong>
                     </Link>
                 </main>

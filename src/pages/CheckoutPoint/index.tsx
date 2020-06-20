@@ -13,7 +13,7 @@ const CheckoutPoint = () => {
         <div id="page-checkout-point">
             <div className={"content"}>
                 <FiCheckCircle />
-                <h1>Cadastro concluído !</h1>
+                <h1>Registration completed !</h1>
             </div>
         </div>
     );

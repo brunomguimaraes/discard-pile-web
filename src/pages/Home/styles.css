@@ -1,7 +1,6 @@
 #page-home {
     height: 100vh;
-  
-    background: url('../../assets/home-background.svg') no-repeat 640px bottom;
+    background: url('../../assets/home-background.svg') no-repeat 640px center/56%;
   }
   
   #page-home .content {
@@ -18,6 +17,15 @@
   
   #page-home .content header {
     margin: 48px 0 0;
+    display: flex;
+    align-items: center;
+  }
+
+  #page-home .content header span {
+   color: #322153;
+   font-family: Ubuntu;
+   font-size: 32px;
+   margin-left: 16px;
   }
   
   #page-home .content main {
