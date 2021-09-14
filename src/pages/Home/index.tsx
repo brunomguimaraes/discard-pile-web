@@ -13,7 +13,7 @@ const Home = () => {
             <div className="content">
                 <header>
                     <img src={logo} alt="Discard" />
-                    <span>Discard Pile</span>
+                    <span>Discard Pile 2</span>
                 </header>
                 <main>
                     <h1>
